@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(228, 241, 241);
+}
+
+.container {
+    max-width: 444px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 15px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.form-container {
+    max-width: 270px;
+    margin: auto;
+    text-align: left;
+}
+
+input {
+    width: 270px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px rgba(173, 173, 173, 0.945) solid;
+    border-radius: 3px;
+}
+
+input:focus {
+    outline: none;
+}
+
+input::placeholder {
+    color: rgb(109, 108, 108);
+}
+
+input:focus::placeholder {
+    color: rgba(127, 125, 125, 0.533);
+}
+
+p {
+    color: grey;
+    font-size: 13px;
+    font-weight: 500;
+    padding-bottom: 12px;
+}
+
+select {
+    width: 72px;
+    height: 33px;
+    border-color: rgb(172, 170, 170);
+    border-radius: 3px;
+    text-align: center;
+    color: rgb(112, 111, 111);
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+select:focus {
+    outline: none;
+}
+
+button {
+    background-color: rgb(82, 160, 72);
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 3px;
+    border: none;
+    padding: 12px 62px;
+    margin-bottom: 15px;
+    width: 270px;
+}
+
+h3 {
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(97, 95, 95, 0.848);
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+h3::after {
+    content: '';
+    margin-left: 5px;
+    width: 35px;
+    height: 1px;
+    background-color: rgba(149, 146, 146, 0.289);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+h3::before {
+    content: "";
+    margin-right: 5px;
+    width: 35px;
+    height: 1px;
+    background-color: rgba(149, 146, 146, 0.289);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.submit {
+    color: white;
+    background-color: rgb(63, 83, 164);
+    font-size: 15px;
+    font-weight: 700;
+    padding: 12px 0;
+}
