@@ -15,17 +15,19 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h1 {
+.bold-p {
     font-size: 15px;
     margin-top: 50px;
     margin-bottom: 5px;
     font-weight: 500;
+    color: black;
 }
 
-h2 {
+.normal-p {
     font-size: 14px;
     font-weight: 400;
     margin-bottom: 30px;
+    color: black;
 }
 
 .form-container {
@@ -54,7 +56,7 @@ input:focus::placeholder {
     color: rgba(127, 125, 125, 0.533);
 }
 
-p {
+.date {
     color: grey;
     font-size: 13px;
     font-weight: 500;
@@ -70,6 +72,7 @@ select {
     color: rgb(112, 111, 111);
     margin-right: 15px;
     margin-bottom: 20px;
+    font-size: 13px;
 }
 
 select:focus {
@@ -88,7 +91,7 @@ button {
     width: 270px;
 }
 
-h3 {
+.word {
     font-size: 13px;
     font-weight: 500;
     color: rgba(97, 95, 95, 0.848);
@@ -96,7 +99,7 @@ h3 {
     margin-bottom: 15px;
 }
 
-h3::after {
+.word::after {
     content: '';
     margin-left: 5px;
     width: 35px;
@@ -106,7 +109,7 @@ h3::after {
     vertical-align: middle;
 }
 
-h3::before {
+.word::before {
     content: "";
     margin-right: 5px;
     width: 35px;

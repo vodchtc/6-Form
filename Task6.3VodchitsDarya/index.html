@@ -11,36 +11,37 @@
 
 <body>
     <div class="container">
-        <h1>Пожалуйста,укажите Ваше имя и фамилию.</h1>
-        <h2>Чтобы облегчить общение и поиск друзей,у нас приняты настоящие имена и фамилии.</h2>
+        <p class="bold-p">Пожалуйста,укажите Ваше имя и фамилию.</p>
+        <p class="normal-p">Чтобы облегчить общение и поиск друзей,у нас приняты настоящие имена и фамилии.</p>
 
         <form class="form-container">
             <input type="text" placeholder="Ваше имя">
             <input type="text" placeholder="Ваша фамилия">
-            <p>Дата рождения</p>
+            <p class="date">Дата рождения</p>
             <select name="day">
-                <option value=""headen>День</option>
+                <option value=""hidden>День</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
             </select>
             <select name="month">
-                <option value=""headen>Месяц</option>
+                <option value=""hidden>Месяц</option>
                 <option value="июнь">Июнь</option>
                 <option value="июль">Июль</option>
                 <option value="август">Август</option>
             </select>
             <select name="year">
-                <option value=""headen>Год</option>
+                <option value=""hidden>Год</option>
                 <option value="1998">1997</option>
                 <option value="1999">1998</option>
                 <option value="2000">1999</option>
             </select>
 
             <button>Зарегистрироваться</button>
-            <h3>или</h3>
-            <input type="submit" value="Продолжить с Facebook" class="submit">
+            <p class="word">или</p>
+
         </form>
+        <input type="submit" value="Продолжить с Facebook" class="submit">
 
 
     </div>
